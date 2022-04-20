@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+body {
+    background-color: #9cb08b;
+}
+
+/* กล่องรูป */
+div.box {
+  float: left;
+  margin: 60px;
+  width: 25%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 50px;
+  
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 10px;
+}
+
+        
+</style>
+</head>
+
+<body>
+
+    <div class="box">
+        <img src="Cat.jpg" alt="5 Terre" style="width:100%">
+        <div class="container">
+        <p>Box 1</p>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="Cat.jpg" alt="5 Terre" style="width:100%">
+        <div class="container">
+        <p>Box 2</p>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="Cat.jpg" alt="5 Terre" style="width:100%">
+        <div class="container">
+        <p>Box 3</p>
+        </div>
+      </div>
+
+<ul>
+  <li><a class="active" href="#logo">Logo</a></li>
+  <li style="float:right"><a class="active" href="#logout">Logout</a></li>
+  <li style="float:right"><a class="active" href="#tasks">Tasks</a></li>
+  <li style="float:right"><a class="active" href="#home">Home</a></li>
+</ul>
+
+</body>
+</html>
